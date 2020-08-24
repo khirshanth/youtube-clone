@@ -1,0 +1,50 @@
+.rec{
+    flex:0.8;
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    padding-bottom: 0;
+}
+.rec >h2{
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.videocard{
+    margin-bottom:40px;
+    width:270px;
+    margin-left:10px
+    
+}
+.videocard-thumbnail{
+    height:140px;
+    width:250px;
+}
+.rec-1{display: flex;flex-wrap: wrap;}
+
+.videocard-info{
+    display: flex;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+.video-text{
+    margin-left:20px;
+}
+.video-text>h4{
+    font-size: 14px;
+    margin-bottom:5px;
+    font-weight: 700;
+}
+.video-text>p{
+    font-size: 15px;
+    color: gray;
+}
+.vc-avatar{
+    height:30px !important
+}
+
+.video{
+    margin-left: 15px;
+    margin-top: 15px;
+    /* height: 80%;
+    width: 50%; */
+    flex: 0.8;
+}

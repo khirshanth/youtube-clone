@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top:0;
+    z-index:100;
+    background-color: white;
+}
+.logo{
+    height: 35px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+.h-m{
+    width: 40%;
+    align-items: center;
+    display: flex;
+    border: 1px solid lightgray;
+    
+}
+.h-r{
+    display: flex;
+    align-items: center;
+    
+}
+
+.h{
+    margin-right: 20px;
+    min-height: 2rem;
+    min-width:2rem;
+}

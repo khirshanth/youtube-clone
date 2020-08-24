@@ -1,0 +1,24 @@
+.side-row{
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+}
+.side-icon{
+   min-height: 2rem;
+   min-width: 2rem;
+   align-items: center;
+}
+.side-name{
+    flex:1;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+}
+.side-row:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.side-row:hover>.side-icon{
+    color: red;
+}
